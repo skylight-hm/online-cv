@@ -52,44 +52,29 @@ career-profile:
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: 工学学士
+      university: 长沙理工大学
+      time: 2012 - 2016
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+        测绘工程.
+          - 理工杯数学建模校级一等奖
+    - degree: 工学硕士
+      university: 辽宁工程技术大学
+      time: 2016 - 2019
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        测绘科学与技术专业.
+          - 东三省数学建模竞赛辽宁省三等奖
+          - APMCM亚太数学竞赛建模全国二等奖
+          - 华为杯全国研究生数学建模竞赛全国三等奖
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: 客座研究生
+      time: 2017.07 - 2019.06
+      company: 国土卫星遥感应用中心, 自然资源部
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
+        负责中心承担项目中的技术探索和研究工作。
+          - 遥感影像变化监测项目：在中心面向违法码头、自然保护区变化、沿海排污口等目标的遥感影像变化检测项目中自发研究**图像自动爬取技术**，统一截图标准，提高了工作效率
+          - 一般地表要素信息提取项目：在中心面向利用农用地膜、甘蔗种植区、道路等要素进行清点调查时，利用**语义分割模型**和**数据增强技术**辅助人工提取遥感影像中要素的信息，提高了人工标记目标要素的效率，同时提出**基于遗传算法的深度学习超参数优化方法**，实现模型结构的自动优化和精度提升
+          - 风力发电容量清点项目：在中心面向风力发电机目标进行清点调查项目工作的后期提出一种**基于级联多任务卷积神经网络（CMT CNNs）的高分二号风力发电机精细提取方法**，实现了高分辨率宽幅遥感影像中风力发电机的准确快速提取，为风力发电机的自动化清点提供了算法支撑
     - role: Senior Software Engineer
       time: 2014 - 2015
       company: Google, London
