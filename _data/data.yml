@@ -43,14 +43,9 @@ sidebar:
         link:
 
 career-profile:
-    title: Career Profile
+    title: Python软件工程师
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      你好，我是一名以Python为主要编程语言的软件工程师，在遥感深度学习领域方面具有3年的研究经验，在气象领域具有1年研究开发经验，熟练使用Python和Linux操作系统，对使用计算机和软件解决实际应用问题充满兴趣。
 education:
     - degree: 工学学士
       university: 长沙理工大学
@@ -75,98 +70,86 @@ experiences:
           - 遥感影像变化监测项目：在中心面向违法码头、自然保护区变化、沿海排污口等目标的遥感影像变化检测项目中自发研究**图像自动爬取技术**，统一截图标准，提高了工作效率
           - 一般地表要素信息提取项目：在中心面向利用农用地膜、甘蔗种植区、道路等要素进行清点调查时，利用**语义分割模型**和**数据增强技术**辅助人工提取遥感影像中要素的信息，提高了人工标记目标要素的效率，同时提出**基于遗传算法的深度学习超参数优化方法**，实现模型结构的自动优化和精度提升
           - 风力发电容量清点项目：在中心面向风力发电机目标进行清点调查项目工作的后期提出一种**基于级联多任务卷积神经网络（CMT CNNs）的高分二号风力发电机精细提取方法**，实现了高分辨率宽幅遥感影像中风力发电机的准确快速提取，为风力发电机的自动化清点提供了算法支撑
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: 软件工程师
+      time: 2018.11 - 2019.01
+      company: 光子算数（北京）科技有限责任公司
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        负责计算加速硬件的软件配套实现。
+          - 先进深度学习算法与硅基光子集成芯片的底层交互调用：基于硬件接口开发配套的**实例分割原型软件**，根据硅基光子芯片的计算特性测试其表现，并面向自然图像的实例分割场景开发展示软件，模型选型为**FCIS**，为公司融资提供软件技术支持
+    - role: 软件工程师 
+      time: 2019.07 - now
+      company: 北京华云星地通科技有限公司, 中国华云集团
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        负责气象AI产品的研发、Web后端服务实现。
+          - 空间天气产品的整理、分析服务：设计多源数据的格式解析引擎，根据前端请求实现空间天气产品的**数据处理和分析后端功能服务**，后端服务框架为**Flask**，利用**Redis**做缓存实现异步，使用**MySQL**记录业务信息
+          - 火点地图发布服务：根据WMS服务要求，实现**火点地图金字塔切片发布服务后端功能**，使用**MySQL**查询火点信息，基于**Pillow**绘图并返回
+          - 朴素贝叶斯云检测算法：面向FY4A卫星云检测问题，开发了**基于朴素贝叶斯理论的云检测算法**，方法从条件概率理论出发，从历史FY4A卫星AGRI载荷遥感多光谱数据中云的特征分布学习云属概率生成模型，取得了优于现行业务产品的精度
+          - 气象产品精度验证可视化及指标统计：面向多源气象卫星的产品精度验证需求，设计了精度验证系统的通用架构，开发了面向Aqua卫星MODIS载荷与FY3D卫星MERSI载荷的云检测产品视场匹配和验证统计功能，在开发中使用**单元测试**保证代码质量
+          - 深度学习实况降水估计：面向降水实况检测问题，提出了一种**基于序列亮温观测的融合双网络降水估计方法**，方法构建降水等级估计网络(**PLENet**)和定量降水估计网络(**QPENet**)，通过学习序列红外亮温观测值与固定位置雨量站过去一小时降水量，融合两类网络的预测得到最终的降水估计值，具有较业务实况降水产品更精细的估计粒度和更高的准确性
+          - 台风目标检测：面向遥感云图中的台风检测问题，构建台风数据集，开发了基于语义分割**UNet**模型实现**台风的目标追踪检测服务**，为台风定位定强系统提供技术支撑
+          - 正演模式的深度学习计算技术研发：面向现有正演模式的计算效率问题，开发了**正演模式拟合网络模型**（**RTTOVNet**），模型拟合RTTOV的输入和输出关系，在保持精度偏差小于1开尔文的条件下把模式计算时间从2小时提高到1分钟，极大地提高了模式计算效率
+          - 深度学习预测未来遥感云图：提出一种**面向短临云图预测问题的光流预测模型**（**CMONet**），能够根据历史60分钟的观测预测未来40分钟内云图的发展变化，为短临时间的天气预报预警提供了算法支撑
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      学习和工作期间围绕项目需求开发了多个算法模型和软件抽象库。
     assignments:
-      - title: Velocity
+      - title: MeteSatPy
         link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        tagline: "面向国内外气象卫星载荷产品高级抽象库，目前封装了FY3D卫星AGRI载荷和国外Aqua卫星MODIS载荷的L1和部分L2产品，实现云检测算法、视场匹配和精度验证功能。"
 
-      - title: DevStudio
+      - title: LightCPrototype
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "面向摄像头实景图像实例分割的原型展示软件，实现了人物、汽车、猫、狗等目标的实时目标检测和实例分割展示效果。"
 
-      - title: Tempo
+      - title: CMO-DL
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: "面向未来遥感云图预测的算法模型，实现红外遥感载荷短时内运动场关系建模和未来观测场重建功能。"
 
-      - title: Atom
+      - title: CMT CNNs
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        tagline: "面向高分二号遥感影像的风力发电机实例分割检测算法模型，在测试集上实现了90%的召回率和84%的准确率。"
 
-      - title: Delta
+      - title: RTTOV-DL
         link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "面向气象正演模式的拟合算法模型，能够提高传统RTTOV模式的计算效率。"
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      截至目前，出版的论文以学生时期的研究成果为主。
     papers:
-      - title: The Art of Computer Programming
+      - title: 遥感影像要素提取的可变结构卷积神经网络方法
         link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+        authors: 王华斌, 韩旻等
+        conference: "测绘学报 48(2019), 583."
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+      - title: "TARGETS MASK U-NET FOR WIND TURBINES DETECTION IN REMOTE SENSING IMAGES"
         link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+        authors: Han, M., Wang, H.,et al
+        conference: "ISPRS - International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences XLII–3(2018), 475–480."
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Python & Chainer & PyTorch & Keras/TensorFlow
         level: 95%
 
-      - name: Ruby on Rails
+      - name: Python & Flask 
+        level: 80%
+
+      - name: MySQL
+        level: 80%
+
+      - name: Git
+        level: 80%
+
+      - name: Linux
         level: 85%
 
-      - name: Sketch & Photoshop
+      - name: Adobe Illustrator
         level: 60%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Any question? Please call me!<i class="fas fa-heart"></i>
